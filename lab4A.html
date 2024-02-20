@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PART A</title>
+
+</head>
+<body>
+	<fieldset>
+	<table bordar="1" cellspacing="10" cellpadding="30">
+
+		<center><h1>student ragistation</h1></center>
+		<form>
+			<tr>
+				<td>NAME</td>
+			<td><input type="text" name="Username" placeholder="username"></td>
+		</tr>
+		<tr>
+			<td>E-mail</td>
+			<td><input type="email" name="email">
+			</td>
+			<tr>
+				<td>Mobile No</td>
+				<td><input type="number" name="number" placeholder="only number 10 digit">
+				</td>
+			</tr>
+			<tr>
+				<td>Address</td>
+				<td><textarea name="Address" id="101" placeholder="Please Give Your Address Here" row="5"></textarea> 
+				</td>
+			<tr>
+				<td>Nationality</td>
+				<td><input type="text" name="nationality">
+				</td>
+			</tr>
+			<tr>
+				<td>Date Of Birth</td>
+				<td>
+					<input type="date" name="dob">
+				</td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td> <label for="101">
+            <input type="radio" value="Male" name="gender" id="101">Male
+        </label>
+        <label for="102">
+            <input type="radio" value="Female" name="gender" id="102">Female
+        </label></td>
+    </tr>
+    <tr>
+    	<td>Highest Degree</td>
+    	<td>
+    		 <select name="DEGREE">
+            <option value="B.TECH" disabled selected hidden>Select Degree</option>
+            <option value="B.TECH">B.TECH</option>
+            <option value="B.COM">B.COM</option>
+            <option value="BCA">BCA</option>
+            <option value="M.TCH">M.TECH</option>
+        </select></td>
+    </tr>
+    
+    <tr>
+			<td>CPI</td>
+			<td><input type="number" name="cpi">
+			</td>
+	</tr>
+	<tr>
+				<td>University</td>
+				<td><input type="text" name="university" placeholder="Name of University">
+				</td>
+			</tr>
+			 <tr>
+    	<td>Passing Year</td>
+    	<td>
+    		 <select name="YEAR">
+    		 	 <option value="YEAR">PASSING YEAR</option>
+            <option value="2011">2011</option>
+            <option value="2015">2015</option>
+            <option value="2019">2019</option>
+            <option value="2023">2023</option>
+        </select></td>
+    </tr>
+    <tr>
+    	<td><input type="submit" name="submit"></td>
+    		<td><input type="button" name="cancel" value="cancel">
+    		</td>
+    	</tr>
+
+	</table>
+	</fieldset>
+
+</body>
+</html>
